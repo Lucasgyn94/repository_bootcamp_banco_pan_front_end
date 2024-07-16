@@ -1,0 +1,10 @@
+==> MODULOS
+* mecanismos fundamentais para organizar e estruturar um aplicativo.
+* usados para agrupar componentes, diretivas, pipes e serviços relacionados em unidades funcionais coesas.
+* Cada aplicativo angular tem pelo menos um módulo raiz, geralmente chamado de módulo principal ou AppModule, que é usado para inicializar o aplicativo.
+* em resumo, módulos guardam componentes, diretivas, pipes e services.
+
+1. NgModule (NgModule)
+* A classe NgModule é um decorador que é usado para definir um módulo Angular. 
+* Fornece metadados que dizem ao Angular como compilar e executar o aplicativo.
+* Metadados fornecidos incluem declarações (componentes, diretivas e pipes declarados no módulo), imports (outros módulos que este módulo depende), exports(componentes, diretivas e pipes disponíveis para outros módulos) e providers (serviços fornecidos pelo módulo). 

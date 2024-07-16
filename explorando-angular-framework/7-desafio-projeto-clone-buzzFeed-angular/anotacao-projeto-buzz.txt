@@ -1,0 +1,5 @@
+==> PREPARAR O PROJETO PARA LER ARQUIVOS JSON:
+* adionamos os seguintes atributos ao nosso tsconfig.json:
+
+"resolveJsonModule": true,
+"allowSyntheticDefaultImports": true,

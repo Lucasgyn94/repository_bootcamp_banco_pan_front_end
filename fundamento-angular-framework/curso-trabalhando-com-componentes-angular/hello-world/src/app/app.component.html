@@ -1,0 +1,17 @@
+<h1>Hello {{name}}</h1>
+<app-menu-component></app-menu-component>
+
+<p>Start editing to see some magic happen :) </p>
+<h1>OLÁ MUNDÃO</h1>
+
+<!-- INTERPOLAÇÃO -->
+<app-my-button label="NOTICIA" ></app-my-button>
+<app-my-button label="{{buttonLabel}}" ></app-my-button>
+
+<!-- PROPERTY BINDING -->
+
+<app-my-button [label]="buttonSecond" ></app-my-button>
+<app-my-button [label]="'CARRINHO'" ></app-my-button>
+
+<!-- Two way data binding -->
+<app-entry-data></app-entry-data>

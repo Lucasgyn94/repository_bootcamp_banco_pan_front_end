@@ -1,0 +1,61 @@
+{
+  "title": "Qual personagem de Dragon Ball você seria?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual é a sua técnica de combate preferida?",
+      "options": [
+        {"id": 1, "name": "Kamehameha", "alias": "A"},
+        {"id": 2, "name": "Genki Dama (Spirit Bomb)", "alias": "B"},
+        {"id": 3, "name": "Final Flash", "alias": "C"},
+        {"id": 4, "name": "Destruidor de Galáxias", "alias": "D"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Como você reagiria diante de um desafio poderoso?",
+      "options": [
+        {"id": 1, "name": "Aceitaria o desafio e lutaria até o fim", "alias": "A"},
+        {"id": 2, "name": "Pediria ajuda aos amigos", "alias": "B"},
+        {"id": 3, "name": "Ficaria nervoso, mas enfrentaria o desafio", "alias": "C"},
+        {"id": 4, "name": "Recuaria e planejaria uma estratégia", "alias": "D"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual é a sua maior motivação?",
+      "options": [
+        {"id": 1, "name": "Proteger meus entes queridos", "alias": "A"},
+        {"id": 2, "name": "Buscar constantemente o poder e a superação", "alias": "B"},
+        {"id": 3, "name": "Garantir a paz no universo", "alias": "C"},
+        {"id": 4, "name": "Realizar meus desejos pessoais", "alias": "D"}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual é o seu estilo de luta preferido?",
+      "options": [
+        {"id": 1, "name": "Kung Fu", "alias": "A"},
+        {"id": 2, "name": "Muay Thai", "alias": "B"},
+        {"id": 3, "name": "Boxe", "alias": "C"},
+        {"id": 4, "name": "Artes marciais mistas (MMA)", "alias": "D"}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "O que você faria se encontrasse o Dragão Shenlong?",
+      "options": [
+        {"id": 1, "name": "Pediria imortalidade", "alias": "A"},
+        {"id": 2, "name": "Pediria por paz no universo", "alias": "B"},
+        {"id": 3, "name": "Pediria por sabedoria e conhecimento", "alias": "C"},
+        {"id": 4, "name": "Pediria por força e poder", "alias": "D"}
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você seria Goku, o protetor do universo!",
+    "B": "Você seria Gohan, um guerreiro pacifista com grande potencial!",
+    "C": "Você seria Vegeta, o príncipe dos Saiyajins em busca constante de poder!",
+    "D": "Você seria Freeza, um tirano cruel e poderoso!"
+  }
+}

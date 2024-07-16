@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Definição das cores Dragon Ball */
+:root {
+  --cor-de-fundo: #111111; /* Cor de fundo principal */
+  --cor-branca: #FFFFFF; /* Cor branca para texto */
+  --cor-laranja: #FDB813; /* Cor laranja */
+  --cor-azul: #2C82C9; /* Cor azul */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Aplicação das cores inspiradas em Dragon Ball */
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-branca);
+}
+
+/* Estilizando os links */
+a {
+  color: var(--cor-azul);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+

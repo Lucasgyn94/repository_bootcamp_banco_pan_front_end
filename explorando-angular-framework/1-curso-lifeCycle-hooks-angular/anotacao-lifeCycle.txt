@@ -1,0 +1,55 @@
+# Requisitos
+
+- Node & NPM
+
+- Visual Studio Code
+  - Angular Language Service
+  - Auto Close Tag
+  - Auto Rename Tag
+  - Tema (*opcional)
+  - Icone (*opcional)
+  - editorConfig, Prettier, eslint
+  
+- Angular
+  - npm install -g @angular/cli@14.1.2
+
+- CLI
+command line interface, mais conhecido como interface de linha de comando.
+
+==> RENDERIZAÇÃO
+* Para renderizar uma aplicação no navegador utilizaremos o seguinte comando:
+- ng serve
+
+==> CICLO DE VIDA COMPONENTES ANGULAR
+-> OnInit
+* é um evento que vai ser disparado quando o meu componente for iniciado.
+
+==> 8 HOOKS LIFECYCLE HOOKS
+
+-> Life Cycle Hooks
+1. ngOnInit()
+- ocorre quando o componente é iniciado
+
+2. ngOnChanges()
+- executado quando o valor de propriedade é alterado via Input()
+
+3. ngDoCheck()
+- executa quando propriedades dos componentes são verificadas.
+
+-> Eventos do Check
+3.1 ngAfterContentInit()
+- executa quando Angular realiza qualquer projeção de conteúdo em seus componentes.
+
+3.2 ngAfterContentChecked()
+- executa sempre que conteúdo do conteúdo do componente é verificado pelo mecanismo de alteração do Angular.
+
+3.3 ngAfterViewInit()
+- executa depois que um componente é totalmente inicializado (carregou tudo)
+
+3.4 ngAfterViewChecked()
+- executa quando a visualização de um componente é verificado pelo algoritmo de detecção de alteração do Angular
+
+
+-> Evento ao Destruir
+4 ngOnDestroy()
+

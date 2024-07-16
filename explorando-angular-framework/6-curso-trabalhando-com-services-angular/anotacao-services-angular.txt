@@ -1,0 +1,19 @@
+==> SERVICES
+* serviços é uma classe usada para organizar e compartilhar funcionalidades ou dados entre diferentes partes da sua aplicação, como componentes, diretivas e outros serviços.
+* promovem a reutilização do código, separação de problemas e facilita manutenção da aplicação.
+* Invés de concentrar nossas regras de negócio como acesso a uma API, requisitar algum dado do client, ou factory, e recomendado que isso fique na camada de serviço.
+* Um service pode servir 1 ou N componentes.
+* arquivo provedor de dados.
+
+<router-outlet> serve para renderizar o conteúdo das rotas
+
+==> Arquivo environment.ts
+* serve para guardar valores de váriaveis que vamos usar em produção ou não;
+
+==> INJEÇÃO DE DEPENDÊNCIAS
+* Em angular, '@Injectable" é um decorador utilizado para fornecer metadados que informam ao Angular que uma determinada classe pode ser injetada em outras classes como uma dependência.
+* Em resumo, estamos dizendo ao Angular, que esta classe pode ter outras classes injetadas nela.
+* Torna uma classe elegível para injeção de dependências.
+
+==> REQUISIÇÕES HTTP
+

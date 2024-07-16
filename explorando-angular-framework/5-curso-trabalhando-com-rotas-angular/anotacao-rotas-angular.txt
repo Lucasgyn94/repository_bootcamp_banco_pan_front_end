@@ -1,0 +1,7 @@
+==> ATRIBUTO pathMath
+pathMatch: 'full' = url exata, não pode haver nenhuma variação dela.
+pathMatch: 'prefix' = url contém aquela caminho, porém pode haver mais...
+
+==> ROTA CORINGA
+E quando o usuário tenta acessar uma página que não existe, então redirecionamos ele para uma página coringa, geralmente 404(específica):
+{path: '**', redirectTo: ''}

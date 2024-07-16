@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal De Notícias Galáticas</title>
+    <link rel="stylesheet" href="./styles/card.css" />
+    <script src="src/Components/CardNews.js" defer></script>
+    <script src="src/Components/TituloDinamico.js" defer></script>
+    <script src="src/Components/TituloDinamicoProps.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            
+            <div class="card__left">
+                <span>By Lucas Ferreira da Silva</span>
+                <a href="#">Darth Vader Contrata Devs</a>
+                <p>Darth Vader procura desenvolvedor que sabem trabalhar com componentes.</p>
+            </div>
+            
+            <div class="card__right">
+                <img src="./assets/darth-vader.jpg" alt="">
+            </div>
+        
+        </div>
+
+        <card-news></card-news>
+        
+        <titulo-dinamico></titulo-dinamico>
+        <titulo-dinamico-props titulo="Olá lucas"></titulo-dinamico-props>
+        <titulo-dinamico-props titulo="Tampinha é demais!"></titulo-dinamico-props>
+        <titulo-dinamico-props titulo="O mundo e dos Devs"></titulo-dinamico-props>
+    </div>
+</body>
+</html>

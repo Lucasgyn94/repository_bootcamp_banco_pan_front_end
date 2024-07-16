@@ -1,0 +1,30 @@
+/*telas menores que 768px */
+@media screen and (max-width: 767px) {
+  .container__quizz {
+    width: 90%;
+  }
+
+  .btn-option {
+    width: 100%;
+  }
+
+  .quizz_logo h3 {
+    font-size: 20px;
+  }
+}
+
+/* telas menores que 576px */
+@media screen and (max-width: 575px) {
+  .quizz_questions {
+    font-size: 16px;
+    height: auto;
+  }
+
+  .quizz_options {
+    width: 100%;
+  }
+
+  .quizz_logo h3 {
+    font-size: 18px;
+  }
+}

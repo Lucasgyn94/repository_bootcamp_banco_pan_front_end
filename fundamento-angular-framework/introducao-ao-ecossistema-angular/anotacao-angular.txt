@@ -1,0 +1,84 @@
+==> ANGULAR
+* Framework baseado em javascript
+* Typescript como linguagem principal
+* SPAs são o seu foco
+* Componentes são a base da arquitetura
+* Estrutura organizada e bem definida
+* Sistema de Tooling muito rico: CLI, HTTP, Router...
+
+OBS:
+SPAs = Single Page Application = Aplicação de Página Única
+
+==> ANGULARJS != ANGULAR
+* O AngularJS tinha como linguagem padrão o javascript.
+   - AngularJS lançado em setembro 2012
+* Já o angular é baseado no javascript, mas através do TypesScript. 
+   - Angular lançado em setembro 2016.
+   
+
+==> REACT VS ANGULAR
+* Utilizado para construção de SPA's
+-> ANGULAR
+ * Google
+ * Framework
+ * HTML + TS
+ * 2 Way
+ * Regular DOM
+ * Services
+ 
+ -> REACT
+ * Facebook
+ * Library
+ * JS + JSX
+ * Uni-Directional
+ * Virtual DOM
+ * Flux / Redux ou context api
+ 
+ ==> CAMADAS DE RESPONSABILIDADE WEB APP
+ 
+ -> Camada 1
+   * Componentes
+   Componente é um elemento visual, customizável e reutilizável
+   Exemplo: Um card na tela, botão
+ 
+ -> Camada 2
+   * Gerenciamento de Estado
+     - States
+     Responsável por garantir que as informações dos componentes não estão dessincronizadas e facilitar a comunicação de um componente com o outro.
+     - Exemplo de ferramentas para gerenciamento de estado:
+       * Flux
+       * Redux
+       * Context API
+       * Recoil
+       * Storeon
+       * Vuex
+       * Ngrx
+       * Ngxs
+       
+     $ Exemplo: Atualizar carrinho de compras ao clicar no botão de comprar 
+ 
+ -> Camada 3
+   * Roteamento
+   Responsável pela forma de navegar fazendo a troca de URL sem Recarregar a página, mudando somente os componentes que são mostrados.
+   $ Exemplo:
+   meuapp/login
+   meuapp/home
+   
+   $ Exemplos de bibliotecas:
+   * History API
+   * React-Router
+   * Vue-Router
+   * Angular RoutingModule
+   
+ -> Camada 4
+   * Renderização
+   - Render
+   Responsável por decidir a melhor maneira de acessar e entregar para o browser o componente pronto para que ele seja desenhado na janela sem complicações.
+   Processa os routes, components, states.
+   Existem 3 tipos principais de estratégias de renderização.
+     * 100% Server
+     * Parte Server e Parte Client
+     * 100% Client
+    O angular por default é 100% client.
+   
+   

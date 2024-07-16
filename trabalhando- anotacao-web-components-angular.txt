@@ -1,0 +1,26 @@
+==> COMPONENTES
+* Componentes são elementos visuais, customizável e reaplicável.
+* É o átomo da nossa aplicação
+* Geralmente é uma função JS/TS que retorna HTML, CSS e carrega eventos javascript junto.
+
+
+--> COMO A APLICAÇÃO É MONTADA?
+* A composição dos componentes é montada através da injeção de componentes.
+* injeção de dependência é um padrão/estratégia de desenvolvimento muito utilizada em diversos cenários diferentes.
+* Uma injeção é feita quando algo depende de outra coisa para seu funcionamento, mas ele não produz diretamente esse conteúdo, tendo a dependência de algum agente externo.
+
+
+==> TEMPLATE HTML COMPONENTS
+-> INTERPOLAÇÃO
+{{ valor }}
+
+-> PROPERTY BINDING
+[propriedade] = "valor"
+
+-> EVENT BINDING
+(evento) = "Handler"
+
+-> TWO WAY DATA BINDING
+[(ngModel)] = "propriedade"
+
+

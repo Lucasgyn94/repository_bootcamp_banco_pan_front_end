@@ -1,0 +1,6 @@
+@media screen and (max-width: 400px) {
+  .container__big_card {
+    max-width: 100%; /* Altera a largura máxima para ocupar toda a largura disponível */
+    margin: 0 10px; /* Reduz a margem para se adaptar a telas menores */
+  }
+}

@@ -1,0 +1,37 @@
+==> DIRETIVAS
+* Diretiva são a maneira como o angular manipula e altera a DOM dinamicamente.
+Existem dois tipos, de atributo e estruturais.
+
+==> DIRETIVAS DE ATRIBUTO
+* Alteram a aparência ou comportamento de um elemento, componente ou outra diretiva.
+  - NgClass - Adiciona ou remove conjunto de classes CSS.
+  - NgStyle - Adiciona ou remove um conjunto de estilo ao HTML.
+  - NgModel - Adiciona vinculação de dados bidirecional a um elemento de um formulário.
+ - NgTemplate: é uma diretiva Angular que define um bloco de conteúdo que não será renderizado imediatamente quando a página é carregada.
+ 
+ - NgContent: é uma diretiva Angular que permite inserir conteúdo dinâmico em um componente Angular. Com 'ng-Content', pode-se criar componentes mais flexíveis e reutilizáveis, pois permite que o conteúdo seja inserido em locais específicios dentro do template do componente.
+  
+==> DIRETIVAS ESTRUTURAIS
+* Moldam ou remodelam a estrutura da DOM, adicionando ou removendo elementos na tela.
+ - NgIf - condicional que verifica se modelo deve ser visualizado ou não.
+ - NgFor - repete um elemento para cada item em uma lista.
+ - NgSwitch - utilizado para alternar entre comportamentos alternativos.
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

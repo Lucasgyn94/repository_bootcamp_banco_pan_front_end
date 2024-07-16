@@ -1,0 +1,108 @@
+==> SHADOW DOM
+* Parte do padrão Web Components no HTML.
+* Encapsulamento de estilo e estrutura para componentes da web.
+* Permite a criação de elementos HTML personalizados com estilos e comportamentos encapsulados, sem interferir no restante da página.
+* Permite criar uma árvore DOM isoada dentro de um elemento específico, conhecido com "host".
+* Para criar uma Shadow DOM, usamos o método 'attachShadow'.
+
+-> Exemplo de criação do Componente 'CardNews'
+* arquivo web-components/src/Components/CardNews.js
+
+$
+class CardNews extends HTMLElement {
+    constructor() {
+        super(); // com o super() estamos inicializando o construtor de HTMLElement
+
+        const shadow = this.attachShadow({mode: "open"});
+
+        shadow.innerHTML = "<h1> Hello World </h1>";
+    }
+}
+// definindo o nome de uso do componente para card-news
+
+customElements.define('card-news', CardNews);
+
+-> Importação do Componente
+* arquivo web-components/index.html
+$
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal De Notícias Galáticas</title>
+    <link rel="stylesheet" href="./styles/card.css" />
+    <script src="src/Components/CardNews.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            
+            <div class="card__left">
+                <span>By Lucas Ferreira da Silva</span>
+                <a href="#">Darth Vader Contrata Devs</a>
+                <p>Darth Vader procura desenvolvedor que sabem trabalhar com componentes.</p>
+            </div>
+            
+            <div class="card__right">
+                <img src="./assets/darth-vader.jpg" alt="">
+            </div>
+        
+        </div>
+        
+        <card-news></card-news>
+    </div>
+</body>
+</html>
+
+
+==> COMPONENTES
+* São formados por um conjunto de elementos, estilos e pros;
+
+* Um componente nada mais é do que um código js que vai retornar html, css e mais js.
+
+
+==> GENERICS
+* Permite a escrita de funções para trabalhar com diferentes tipos de dados.
+* O tipo de dado a ser retornado pela função, só será passado no momento de sua utilização, proporcionando maior flexibilidade e segurança;
+
+==> TRABALHANDO COM TS NODE
+* Permite executar arquivos typescript em Node.js, sem a necessidade de compliar manualmente o código para javascript antes da execução.
+
+-> INSTALAÇÃO GLOBAL
+$
+npm install -g ts-node
+
+-> INSTALAÇÃO LOCAL
+$
+npm install --save-dev ts-node
+
+-> EXECUÇÃO
+$
+ts-node seu-arquivo.ts
+
+== DECORATORS
+* e quando decoramos uma função para que seja disparada alguma outra ação.
+* proporciona uma maneira de modificar ou estender comportamentos de classes, métodos, propriedades ou parâmetros de função de forma declarativa
+* Oferece uma maneira consisa e expressiva de adicionar metadados ou alterar o comportamento do código.
+
+* Para que o mesmo seja usado em nosso projeto, no arquivo tsconfig.json deve ser habilitado a seguite linha:
+$
+
+"experimentalDecorators": true,                   /* Enable experimental support for legacy experimental decorators. */
+
+--> EXEMPLO SIMPLES DECORATOR DE CLASSE
+$
+// decorators
+function ExibirNome(target: any) {
+    console.log(`Chamada vindo de ${target}`);
+}
+
+@ExibirNome
+class Funcionario {}
+
+@ExibirNome
+class Tampinha {}
+
+

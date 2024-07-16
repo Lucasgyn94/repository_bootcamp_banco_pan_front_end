@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 800px) {
+  .container__small-card {
+    max-width: 100%;
+    margin: 0 10px;
+  }
+
+  .small-card__photo > img {
+    width: 100%;
+    min-width: auto;
+    margin-right: 0;
+    margin-bottom: 10px; 
+  }
+}
